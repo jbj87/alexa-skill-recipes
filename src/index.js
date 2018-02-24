@@ -44,37 +44,52 @@ const CLOSING_MESSAGE = "Wonderful. Hope you have a great meal, or as the German
 const recipes = {
   breakfast: [
     {
-      name: "P B and J",
+      name: "Spicy Avocado Toast with Egg",
       instructions: [
-        "You'll need some sandwhich bread, peanut butter and jelly of your choosing.",
-        "Find some sandwich bread.",
-        "Spread a thick layer of peanut butter onto the bread.",
-        "Dump a huge spoonful of jelly on top of the peanut butter and spread it.",
-        "There you go! You just made a delicious peanut butter jelly sandwich. Goodbye."
+        "You'll need one avocado, lime juice, one egg, seasoning spices, and a slice of toasted bread.",
+        "Mash the avocado in a small bowl.",
+        "Stir in lime juice and sprinkle some salt and cayenne pepper on top. Mix well.",
+        "Spray a non-stick pan with cooking spray, heat over medium-heat, and add eggs when pan is ready. cook for 5 minutes.",
+        "Spread a thick layer of avocado mixture on toast.",
+        "Top with fried egg."
+        "There you go! You just made a delicious avocado toast. Goodbye."
       ],
       ingredients: [
-        "peanut butter",
-        "jelly",
-        "bread"
+        "avocado",
+        "lime juice",
+        "egg",
+        "toasted bread",
+        "ground black pepper",
+        "cayenne pepper"
       ]
     },
     {
-      name: "Cereal",
+      name: "Fluffy Scrambled Eggs",
       instructions: [
-        "You'll need some milk and cereal.",
-        "Get a bowl",
-        "Fill it half-way with cereal.",
-        "Now fill up the rest of the bowl with milk.",
+        "You'll need some eggs, milk, and butter.",
+        "Crack eggs into a bowl and beat them till they turn a pale yellow color.",
+        "Heat a non-stick saute pan over medium-low heat.",
+        "Add milk to eggs along with a pinch of salt and pepper, and whisk well.",
+        "Add butter to the pan and pour in the eggs." 
+        "Let the eggs cook for about a minute until the bottom starts to set."
+        "With a spatula, gently push one edge of the egg into the center of the pan, and tilt the pan allowing the liquid eggs to flow."
+        "Repeat with other edges until there is no liquid left."
+        "Turn off the heat and continue turning the egg to your preference. Now is the time to add any other ingredients."
+        "Transfer to a plate when the eggs are moist and soft."
         "Mmmmmh. This is going to be some gooood breakfast."
       ],
       ingredients: [
-        "cereal"
+        "eggs",
+        "milk",
+        "butter"
+        "salt"
+        "pepper"
       ]
     },
     {
-      name: "Bacon and Eggs",
+      name: "Bananarama Smoothie Bowl",
       instructions: [
-        "For this recipe you will need to buy some simple frying oil, four strips of bacon and two eggs.",
+        "For this recipe you will need a banana, almond milk, a type of nut butter, granola, and some ice cubes.",
         "Spread a thin layer of oil on a pan and start heating it on the stove.",
         "Throw the bacon strips into the pan and wait until the bacon is significantly darker and crispy.",
         "Take out the bacon and put it aside. Get the eggs, open them and gently let their content into the pan.",
@@ -82,8 +97,9 @@ const recipes = {
         "Bam! That's what I call some sweet, awesome breakfast!"
       ],
       ingredients: [
-        "bacon",
-        "eggs"
+        "banana",
+        "nut butter"
+        "milk of your choice"
       ]
     }
   ],
